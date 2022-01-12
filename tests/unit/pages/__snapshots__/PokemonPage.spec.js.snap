@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PokemonPage.vue should match snapshot 1`] = `<h1>Wait a moment please...</h1>`;
+
+exports[`PokemonPage.vue should match snapshot when pokemons load 1`] = `
+<div>
+  <h1>Who is this Pokemon?</h1>
+  <div class="pokemon-container"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg" class="hidden-pokemon" alt="pokemon"></div>
+  <div class="options-container">
+    <ul>
+      <li>bulbasaur</li>
+      <li>ivysaur</li>
+      <li>venusaur</li>
+      <li>charmander</li>
+    </ul>
+  </div>
+  <!--v-if-->
+</div>
+`;
